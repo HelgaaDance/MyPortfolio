@@ -529,5 +529,16 @@ font-weight: var(--font-semi-bold);
     display: grid;
     justify-items: center;
     row-gap: 3px;
+
+}
+
+.home-scroll-btn div {
+    font-family: var(--tiny-font-size);
+    font-weight: var(--font-regular);
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    white-space: nowrap;
+    transform: rotate(180deg);
+    margin-top: 7px;
     
 }
